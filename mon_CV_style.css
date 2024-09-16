@@ -1,0 +1,11 @@
+h1 { font-family: fantasy ; font-size: 12pt; color: purple }
+
+body { background-color: rgb(126, 218, 235); }
+
+div {background-color: blueviolet; border-style: solid dashed;}
+
+table { width: 50%;}
+
+td { text-align: left;}
+
+.couleurLigne {color: green;}
