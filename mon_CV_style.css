@@ -1,0 +1,23 @@
+h1 { font-family: fantasy ; font-size: 20pt; color: black }
+
+body { background-color: rgb(131, 206, 78); }
+
+div {background-color: rgb(101, 43, 226); border-style: solid dashed;}
+
+table { width: 100%; height: 75%; margin-bottom: 5px; margin-top: 5px; border-collapse: collapse;}
+
+td { text-align: left; }
+
+img {width: 200px; height: 210px; position: relative; left: 500px;}
+
+a:link {color: darkorchid; text-decoration: none;}
+
+a:hover {color: coral; text-decoration: none;}
+
+.couleurLigne {background-color: coral;}
+
+.couleurdiv1 {background-color: cornflowerblue;}
+
+.couleurdiv2 {background-color: rgb(132, 0, 255);}
+
+.couleurdiv3 {background-color: darkcyan;}
