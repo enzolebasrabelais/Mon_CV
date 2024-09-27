@@ -4,49 +4,61 @@
 
 <head>
 
-  <title>Mon CV</title>
-
   <meta charset="utf-8">
-
-<!-- charset=UTF-8 : pour que les caractères accentués ressortent correctement -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- la balise ci-dessus indique que l'affichage doit se faire sur la totalité de l'écran, par défaut voir Responsive Design -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <title>Mon CV</title>
+
 </head>
 
 <body>
+
+  <h1 class="jumbotron text-center">Bienvenue sur mon CV</h1>
+
 <div class="container">
 
-<div class="jumbotron">
-<div class="container-fluid">
-<h1>Bienvenue sur mon CV</h1>
-</div>
-</div>
-    
-<table>
-    <tr>
-        <div class="row">
-<div class="col-lg-6"><td>Enzo Lebas<br/>Plaintel<br/>07 66 29 61 92<br/><a class="btn btn-primary" href="mailto:enzolebas190106@gmail.com">Mon contact mail</a></td></div>
-<div class="col-lg-6"><td><img src="LEBAS_Enzo.jpg"></td></div>
+  <div class="row">
+
+    <div class="card col-lg-md-9">
+      
+      <div class="card-header">
+        <h2>Enzo Lebas</h2>
+      </div>
+      
+      <div class="card-body">
+        <h5>Plaintel<br/>07 66 29 61 92</h5>
+      </div>
+
+      <div class="card-footer">
+        <a class="btn btn-primary" href="mailto:enzolebas190106@gmail.com">Mon contact mail</a>
+      </div>
+
+      </div>
+      
+      <div class="card col-lg-md-3" style="width:300px">
+        <img class="card-img-top" src="LEBAS_Enzo.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">Enzo LEBAS</h4>
+          <p class="card-text"></p>
         </div>
-    </tr> 
-</table>
+      </div>
 
-<br/>
+<div id="tableau">
+<h1 class="text-center">Etudes</h1>
 
-<h1>Etudes</h1>
-
-<table>
-    <tr>
+<table class="table">
+    <tr class="bg-primary">
         <td>2023/2024</td>
         <td>Terminale generale specialitees : Maths et NSI</td>
     </tr>
-    <tr>
+    <tr class="bg-warning">
         <td>2022/2023</td>
         <td>Premiere generale specialitees : Maths, NSI et SVT</td>
     </tr>
@@ -55,6 +67,7 @@
         <td>Seconde generale</td>
   </tr>
 </table>
+</div>
 
 <br/>
 
@@ -86,7 +99,7 @@
 <br/>
 
 <h1>Expériences professionnelles</h1>
-
+<div id="Experiences">
 <table>
   <tr>
       <td>2014</td>
